@@ -1,0 +1,54 @@
+#title {
+    text-align: center;
+}
+
+#survey-form {
+    text-align: center;
+    width: 40%;
+    background-color: grey;
+    margin: auto;
+    padding: 20px;
+    border-color: aqua;
+    border-radius: 10px;
+
+}
+
+p {
+    text-align: center;
+}
+
+Label {
+    color:#388080;
+    background-color:#eceff1; 
+    width: 25%;
+    padding: 4px;
+    margin: 10px;
+    
+}
+
+#name, #email, #number{
+    width: 60%;
+}
+
+#submit{
+    width: 60%;
+    background-color: #388080;
+    color: white;
+    border-color:#388080;
+    border-radius: 10px;
+}
+
+#dropdown{
+    width: 60%;
+}
+
+input {
+    margin-left: auto;
+    margin: 10px;
+    
+}
+
+textarea{
+    width: 80%;
+    height: 80px;
+}

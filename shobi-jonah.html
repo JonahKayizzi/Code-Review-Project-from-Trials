@@ -1,0 +1,28 @@
+<!Doctype html>
+ <link rel="stylesheet" href="styles.css"> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <html>
+    <h1 id="title">Survery Form</h1>
+    <p id="description">
+it's a survery ofr the people of the world who cant feed theirself</p>
+<Form id="survey-form">
+ <Label id="name-label" >Name</Label><input id="name" type="text"placeholder="Enter Your Name" required/><br>
+  <Label id="email-label">E-mail</Label><input id="email"type="email" placeholder="Enter your E-mail" required/><br>
+ <Label id="number-label">Number</Label> <input id="number" type="number"min="10"max="1000" placeholder="Enter Num"/><br>
+ <Label id="category">Category</Label>
+ <select id="dropdown">
+  <option>Student</option>
+  <option>Teacher</option>
+ </select><br>
+<input type ="radio"name="Gender" value="Male"/><Label>Male</Label><br>
+<input type = "radio"name ="Gender" value="Female"><Label>Female</Label><br>
+<input type = "checkbox"value="Primary"/><Label>Primary</Label>
+<input type = "checkbox"value="secondary"/>
+<Label>Secondary</Label><br>
+<textarea placeholder="additional comments"></textarea><br>
+<input  id="submit"type="submit"/><br>
+  </Form>
+
+</html>
+
